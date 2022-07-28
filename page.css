@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+.head::before{
+    content: '';
+    background:url("front.jpg") center center/cover;
+    opacity: 0.8;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    height: 60vh;
+}
+.title{
+    text-align: center;
+    margin: 10px;
+    
+}
+.text{
+    text-align: center;
+    padding: 0 250px;
+    font-size: 17px;
+}
+.button{
+    text-align: center;
+    padding: 10px 12px;
+    margin: 20px 0 20px 0;
+    background-color: rgb(35, 32, 32);
+    color: #ffffff;
+    border:2px solid gray;
+    outline: none;
+}
+.section1{
+    height: 30vh;
+    width:100%;
+    background-color: rgb(215, 215, 215);
+}
+.section1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.section1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 200px;
+    width: 100%;
+}
+.para{
+    width: 50%;
+    margin-right: 20px;
+}
+.para:last-child{
+    margin-right: 0;
+}
+.field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 250px;
+    background: black;
+    text-align: center;
+    padding: 50px 0;
+}
+.field .first{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.field .web{
+    background: #ffffff;
+    width: 270px;
+    height: 90%;
+    margin-right: 15px;
+}
+.field .first .image1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 150px;
+}
+.web .field-text{
+    padding: 27px 15px;
+}
+.web .field-text p{
+    padding: 20px 15px;
+}
+.field .app{
+    background: #ffffff;
+    width: 270px;
+    height: 90%;
+    margin-right: 15px;
+}
+.app .field-text{
+    padding: 27px 15px;
+}
+.app .field-text p{
+    padding: 20px 15px;
+}
+.field .first .image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+}
+.field .app{
+    background: #ffffff;
+    width: 270px;
+    height: 90%;
+    margin-right: 15px;
+}
+.app .field-text{
+    padding: 27px 15px;
+}
+.app .field-text p{
+    padding: 20px 15px;
+}
+.field .first .image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 150px;
+}
+
+.field .app{
+    background: #ffffff;
+    width: 270px;
+    height: 90%;
+    margin-right: 15px;
+}
+.app .field-text{
+    padding: 27px 15px;
+}
+.app .field-text p{
+    padding: 20px 15px;
+}
+.field .first .image2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 150px;
+}
+.field .tech{
+    background: #ffffff;
+    width: 270px;
+    height: 90%;
+    margin-right: 15px;
+}
+.tech .field-text{
+    padding: 27px 15px;
+}
+.tech .field-text p{
+    padding: 20px 15px;
+}
+.field .first .image3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: 150px;
+}
+.need{
+    text-align: center;
+}
+.need h3{
+padding-top: 17px;
+}
+.need p{
+    margin: 25px 390px;
+}
+.our{
+    display: flex;
+    height: 25vh;
+}
+.our .contact{
+    text-align: center;
+    background-color: #3385ff;
+    width: 50%;
+}
+.our .contact h3{
+    margin-top: 19px;
+}
+.our .contact p{
+    padding: 27px;
+}
+.our .contact h6{
+    margin-bottom: 19px;
+}
+.our .about{
+    text-align: center;
+    background-color: #868686;
+    width: 50%;
+}
+.our .about p{
+    padding: 27px;
+}
+.our .about h3{
+    margin-top: 19px;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px 0;
+    color: white;
+}
+span{
+    color: #3385ff;
+}
