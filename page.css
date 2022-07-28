@@ -15,7 +15,7 @@
 }
 .head::before{
     content: '';
-    background:url("front.jpg") center center/cover;
+    background:url("img/front.jpg") center center/cover;
     opacity: 0.8;
     z-index: -1;
     top: 0;
